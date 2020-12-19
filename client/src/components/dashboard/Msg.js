@@ -38,7 +38,7 @@ const Msg = ({messages,deleteMsg,auth }) => {
             <div className="content">
               <a className="header"> {msg.subject}</a>
               <div className="meta">
-                <span className="cinema">{msg.type==1?'Real estate':'Cars'} by {msg.sender.name}</span>
+                <span className="cinema">{msg.type===1?'Real estate':'Cars'} by {msg.sender.name}</span>
               </div>
               <div className="description">
                 <p>{msg.desc}</p>

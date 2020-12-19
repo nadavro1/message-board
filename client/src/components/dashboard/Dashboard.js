@@ -10,7 +10,7 @@ const Dashboard= ({getMsg,getLimitedMsg,auth:{user},message:{messages,loading}})
         }
     },[getLimitedMsg,getMsg,user] )
     return loading ? <Spinner/>:<Fragment>
-        <h1 className="large text-primary">Dashboard</h1>
+        <h1 className="large text-primary" style={{marginTop: '2%'}}>Dashboard</h1>
       <p className="lead">
         <i className="fas fa-user" /> Welcome {user && user.name}
       </p>

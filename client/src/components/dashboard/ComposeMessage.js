@@ -23,7 +23,7 @@ const ComposeMessage = ({setAlert,addMsg,isSent}) => {
     return (
         <div className="post-form">
             <div className="bg-primary p">
-            <h3>Add Offer</h3>
+            <h3 style={{marginTop: '2%'}}>Add Offer</h3>
             </div>
             <form className="form my-1" onSubmit={(e)=>{
                 e.preventDefault();

@@ -10,19 +10,19 @@ const  Navbar  = ({isAuthenticated,loading,logout}) => {
             <li>
                 <Link to='/dashboard'>
                     <i className='fas fa-user' />{' '}
-                    <span className='hide-sm'>Dashboard</span>
+                    <span>Dashboard</span>
                 </Link>
             </li>
             <li>
                 <Link to='/compose-message'>
                     <i className='fas fa-envelope-square' />{' '}
-                    <span className='hide-sm'>Add Offer</span>
+                    <span>Add Offer</span>
                 </Link>
             </li>
             <li>
                 <a href="#!" onClick={logout}>
                     <i className='fas fa-sign-out-alt'/>{' '}
-                    <span className='hide-sm'>Logout</span>
+                    <span>Logout</span>
                 </a>
             </li>
         </ul>
