@@ -1,0 +1,15 @@
+export const SET_ALERT = 'SET_ALERT';
+export const REMOVE_ALERT = 'REMOVE_ALERT';
+export const REGISTER_SUCCESS = 'REGISTER_SUCCESS';
+export const REGISTER_FAILED = 'REGISTER_FAILED';
+export const LOGIN_SUCCESS = 'LOGIN_SUCCESS';
+export const LOGIN_FAILED = 'LOGIN_FAILED';
+export const LOAD_USER = 'LOAD_USER';
+export const AUTH_ERR = 'AUTH_ERR';
+export const LOGOUT = 'LOGOUT';
+export const GET_ALL_MESSAGES = 'GET_SENT_MESSAGES';
+export const GET_LIMITED_MESSAGES = 'GET_RECEIVED_MESSAGES';
+export const ADD_MESSAGE = 'SEND_MESSAGE';
+export const DELETE_MESSAGE = 'DELETE_MESSAGE';
+export const MESSAGE_ERROR = 'MESSAGE_ERROR';
+export const MESSAGE_CLEAR = 'SENT_MESSAGE_CLEAR';
